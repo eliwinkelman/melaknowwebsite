@@ -486,16 +486,22 @@
 
             <div class="contact-primary">
 
-                <h3 class="h6">Send Us A Message</h3>
 
-                <form id="contactForm" method="post" action="https://melaknow.us18.list-manage.com/subscribe/post?u=b8b2b484e7d9b12fd3cfb9ebb&amp;id=bbd7873f76" name="mc-embedded-subscribe-form" novalidate="novalidate">
+                <!--End mc_embed_signup-->
+                <form action="https://melaknow.us18.list-manage.com/subscribe/post?u=b8b2b484e7d9b12fd3cfb9ebb&amp;id=bbd7873f76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <fieldset>
-
                         <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+
+
+                            <input class="full-width" type="text" placeholder="First Name" value="" minlength="2" required="" name="FNAME" id="mce-FNAME" aria-required="true">
+
+
+                            <input class="full-width" type="text" value="" placeholder="Last Name" minlength="2" required="" name="LNAME" id="mce-LNAME" aria-required="true">
+
                         </div>
                         <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                            <input type="email" value="" name="EMAIL" class="required email full-width" placeholder="Your Email" id="mce-EMAIL"  aria-required="true" minlength="2">
+
                         </div>
                         <div class="form-field">
                             <button class="full-width btn--primary">Submit</button>
@@ -510,7 +516,7 @@
                         </div>
                     </fieldset>
                 </form>
-
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                 <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
