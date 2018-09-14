@@ -54,7 +54,66 @@
  *
  * =================================================================== */
 
+/* ===================================================================
+ * # custom style overrides
+ *
+ * ------------------------------------------------------------------- */
 
+.moving-p {
+    margin-left: 250px;
+    padding-top: 50px;
+    padding-right: 70px;
+    font-size: 20px;
+    text-align: left
+}
+
+.moving-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.second-text {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 150px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .moving-p {
+        margin-left: 0;
+        padding-top: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .moving-img {
+        position: relative;
+    }
+    .second-text {
+        text-align: center;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .second-text {
+        text-align: left;
+        font-size: 20px;
+        padding-top: 50px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .second-text {
+        text-align: left;
+        font-size: 20px;
+        padding-top: 150px;
+    }
+}
 /* ===================================================================
  * # base style overrides
  *

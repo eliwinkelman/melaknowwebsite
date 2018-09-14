@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
+        mailChimpURL   : 'https://melaknow.us18.list-manage.com/subscribe/post?u=b8b2b484e7d9b12fd3cfb9ebb&amp;id=bbd7873f76'   // mailchimp url
     },
 
     $WIN = $(window);
@@ -336,7 +336,6 @@
                 var sLoader = $('.submit-loader');
     
                 $.ajax({
-    
                     type: "POST",
                     url: "inc/sendEmail.php",
                     data: $(form).serialize(),
