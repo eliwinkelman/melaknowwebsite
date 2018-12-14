@@ -6,6 +6,7 @@
     font-size: 48px;
     -webkit-filter: invert(100%);
     transition: all 0.3s ease-in-out;
+
 }
 .ct-btn-scroll:focus, .ct-btn-scroll:hover {
     color: #f59331;
