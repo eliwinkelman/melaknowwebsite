@@ -1,0 +1,288 @@
+
+.ct-btn-scroll {
+    position: absolute;
+    bottom: 5%;
+    color: #fff;
+    font-size: 48px;
+    -webkit-filter: invert(100%);
+    transition: all 0.3s ease-in-out;
+}
+.ct-btn-scroll:focus, .ct-btn-scroll:hover {
+    color: #f59331;
+}
+.ct-btn-scroll {
+    background: url('https://www.solodev.com/assets/bouncy-scroll-down/bouncy-arrow-down.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+    max-height: 60px;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.center-form {
+    max-width: 300px;
+    text-align:center;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 30px;
+    border: none;
+    height: 100%;
+
+}
+.feature-list-item {
+    border-left: solid 8px white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+
+    box-shadow:
+            8px -5px 5px #42c4ed,         /*Left masking shadow*/
+            8px 5px 5px #42c4ed,
+            -10px 0 1rem 0 rgba(0,0,0,.175);
+  border-radius: 2px;
+}
+
+.feature-list-item-primary {
+    border-left-color: #FF9F55;
+}
+
+.feature-list-item-secondary {
+    border-left-color: grey;
+}
+.newsletter-section {
+    padding: 70px 100px 70px 100px;
+}
+
+.product-section {
+    padding: 70px 100px 70px 100px;
+    background-color: #42c4ed;
+    color: white;
+}
+
+.demo-gif {
+    max-height: 400px;
+    max-width: 215px;
+    padding-bottom: 20px;
+}
+.spacetop {
+    margin-top: 20px;
+}
+.card-primary {
+    background-color: #42c4ed;
+    color: white;
+}
+.orange-bottom {
+    border-radius: 5px;
+    border-bottom: solid 5px #FF9F55;
+    padding-bottom: 10px
+}
+.newsletter-box {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border-right: 10px solid #FF9F55;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 10px;
+}
+.btn-primary {
+    background-color: #42c4ed;
+    border: none;
+    color: white;
+}
+.btn-orange {
+    background-color: #FF9F55;
+    border: none;
+    color: white;
+}
+
+.value-prop-section {
+    padding: 70px 100px 70px 100px;
+}
+
+.center-vertically {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.graph-header {
+    min-height: 100px;
+    height: 40%;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+.section-6 li {
+    margin-bottom: 40px;
+}
+.card-body {
+    padding: 1px;
+}
+.fact {
+    margin-bottom: 100px;
+}
+.story-text {
+    padding: 0 20px 0 20px;
+}
+
+.header-logo {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    top: 50%;
+    width: 200px;
+}
+
+.header-logo a {
+    display: block;
+    margin: 9px 0 0 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.header {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index:1000;
+    background-color: white;
+}
+
+/****** section styles ******/
+
+.section-1 {
+    padding: calc(10% + 60px) 0 10% 10%;
+    color: white;
+    background-color: #42C4ED;
+}
+
+.section-2 {
+    border-bottom: solid #42c4ed 4px;
+}
+
+.section-3 {
+    background-image: url("../images/quote1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 70px 30px 70px 30px;
+    height: 70%;
+    text-align: center;
+}
+
+.section-4 {
+    text-align: center;
+    padding: 80px 60px;
+}
+
+.section-5 {
+    padding: 70px 100px 70px 100px;
+    background-color: #42c4ed;
+    color: #ffffff;
+
+    height: 70%;
+    text-align: center;
+}
+.section-6{
+    padding: 70px 30px 70px 30px;
+}
+
+.section-7 {
+    background-image: url("../images/quote2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 70px 30px 70px 30px;
+    height: 70%;
+    text-align: center;
+}
+/****** image styles ******/
+
+.story-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/john.png");
+    background-color: #cccccc;
+    height: -webkit-fill-available;
+}
+
+.app-picture {
+    width: 200px;
+}
+
+/****** timelines *****/
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
