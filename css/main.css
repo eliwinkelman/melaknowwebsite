@@ -1,9 +1,6 @@
 
 .ct-btn-scroll {
-    position: absolute;
-    bottom: 5%;
     color: #fff;
-    font-size: 48px;
     -webkit-filter: invert(100%);
     transition: all 0.3s ease-in-out;
 
